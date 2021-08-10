@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+/* skills section styling */
+.skills{
+    display: flex;
+    height: 100vh;
+    color: cornsilk;
+    font-family: 'Ubuntu', sans-serif;
+}
+.skills .max-width .title{
+    font-size: 45px;
+    height: 15vh;
+    /* background-color: darkgoldenrod; */
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}
+.skills .max-width .skills-content{
+    height: 50vh;
+    margin-left: 120px;
+    /* background-color: cyan; */
+}
+.skills .max-width .skills-content tr td{
+    height: 20vh;
+    width: 40vw;
+    font-size: 30px;
+    color: darkslateblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* background: darkgreen; */
+    display: table-cell;
+}
+.skills .max-width .skills-content tr td img{
+    height: 90px;
+    width: 90px;
+}
