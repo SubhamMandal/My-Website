@@ -772,12 +772,13 @@ textarea {
     display: block;
     width: 60%;
     margin: 0 auto 20px auto;
+    background-image: radial-gradient(transparent, var(--secondary-color));
     /* background-image: radial-gradient(white, var(--x)); */
     border-radius: 50%;
     animation: color 5s ease-in-out infinite alternate;
     position: relative;
-    border-top:  2px solid black;
-    border-right:  2px solid black;
+    border-top:  2px solid var(--text-color);
+    border-right:  2px solid var(--text-color);
     /* border-left: 3px solid black; */
     /* transition: color ease-in-out 1s; */
     /* background: radial-gradient(ellipse farthest-corner at var(--x) 0%, #FFFFFF 0%, #ffb3ff 8%, #ff33ff 25%, #800080 62.5%, #b300b3 100%); */

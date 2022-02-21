@@ -13,7 +13,7 @@ function wait(ms) {
   }
 
 var i = 0, j = 0;
-var txt = [ 'SOFTWARE ENGINEER', 'COMPETITIVE CODER', 'WEB DEVELOPER', 'DESIGNER']; 
+var txt = [ 'SOFTWARE ENGINEER', 'COMPETITIVE CODER', 'WEB DEVELOPER']; 
 var speed = 50; 
 async function typeWriter() {
     if (i < txt[j].length) {
