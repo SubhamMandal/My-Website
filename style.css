@@ -20,7 +20,7 @@ img{
   --x: red;
   --slide-bg: url(#gradient);
   /* --bg-img: url("./images/portfolio-background.jpg"); */
-  --bg-img: url('./images/light-blank-bg.png');
+  --bg-img: url('images/light-blank-bg.png');
   --resume-shadow: rgb(139, 119, 248);
   /* --mobile-bg: url("./images/background.png"); */
   --mobile-bg: url("./images/light-blank-bg.png");
