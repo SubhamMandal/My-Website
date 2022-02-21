@@ -1,1 +1,2 @@
-# My-Website
+# Buddhu
+Buddhu's personal website
