@@ -119,6 +119,7 @@ input[type="checkbox"] {
 
 /* ====================== home page style ============================= */
 #home {
+  position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -126,12 +127,24 @@ input[type="checkbox"] {
   background: var(--bg-img) no-repeat;
   background-size: cover;
   align-items: center;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   color: var(--text-color);
 }
 
+#home .desktop-img{
+  position: absolute;
+  width: 35%;
+  /* background-color: #4267b2; */
+  /* transform: rotateY(180deg) */
+  right: 0px;
+  bottom: 0px;
+}
+#home .desktop-img img{
+  width: 100%;
+}
+
 #home .contents {
-  /* margin-right: 400px; */
+  margin-left: 40px;
   width: 600px;
 }
 
@@ -697,7 +710,7 @@ textarea {
 
 #contacts #send-btn:hover {
   transition: 0.7s;
-  background: var(--primary-color);
+  /* background: var(--primary-color); */
   box-shadow: 0px 0px 10px black;
 }
 
@@ -768,6 +781,11 @@ textarea {
   #home {
     background-image: var(--mobile-bg);
   }
+
+  #home .desktop-img{
+    display: none;
+  }
+
   #home .mobile-img{
     display: block;
     width: 60%;
@@ -817,6 +835,11 @@ textarea {
     ---x: yellow;
     /* background-color: yellowgreen; */
   }
+}
+
+#home .contents {
+  margin-left: auto;
+  margin-right: auto;
 }
 
   #home .mobile-img img{
